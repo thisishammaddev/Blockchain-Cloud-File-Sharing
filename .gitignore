@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+*.key
+*.pem
+
+# Hardhat output
+artifacts/
+cache/
+coverage/
+coverage.json
+typechain/
+typechain-types/
+ignition/deployments/chain-31337/
+
+# React output
+client/build/
+client/coverage/
+client/.pnp
+client/.pnp.js
+
+# Logs and editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+client/.git-backup/
